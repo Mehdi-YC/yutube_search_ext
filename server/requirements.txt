@@ -1,0 +1,5 @@
+youtube_transcript_api
+fastapi
+uvicorn
+
+# run with uvicorn server:app --host 0.0.0.0
