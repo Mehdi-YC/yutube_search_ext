@@ -6,7 +6,7 @@
   },
 
   "version": "0.9",
-  "permissions": ["tabs"],
+  "permissions": ["tabs","storage"],
   "background": {
     "scripts": ["build/background.js"],
     "persistent": false
@@ -17,8 +17,8 @@
   "content_scripts": [
     {
       "matches": ["https://*/*"],
+      "all_frames": true,
       "js": ["build/content-script.js"]
     }
-  ],
-  "content_security_policy": "script-src 'self' 'unsafe-eval'; https://www.youtube.com/iframe_api; object-src 'self'"
+  ]
 }
