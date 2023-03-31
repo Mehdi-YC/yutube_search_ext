@@ -1,6 +1,10 @@
 {
   "manifest_version": 2,
   "name": "Subtitles Seeker",
+  "icons":{
+    "123":"YouTube search.svg"
+  },
+  
   "version": "1.0.0",
   "permissions": ["storage","tabs","webRequest"],
   "background": {
