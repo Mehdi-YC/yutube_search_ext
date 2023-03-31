@@ -4,9 +4,9 @@
   "icons":{
     "123":"YouTube search.svg"
   },
-  
-  "version": "1.0.0",
-  "permissions": ["storage","tabs","webRequest"],
+
+  "version": "0.9",
+  "permissions": ["tabs"],
   "background": {
     "scripts": ["build/background.js"],
     "persistent": false
